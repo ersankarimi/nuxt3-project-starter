@@ -1,5 +1,5 @@
 {
-  "name": "nuxt3-vuetify-project-starter",
+  "name": "siap-frontend",
   "type": "module",
   "version": "1.0.0",
   "private": true,
@@ -9,8 +9,6 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
-    "format": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -21,6 +19,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.0",
-    "eslint-plugin-format": "^0.1.1"
+    "eslint-plugin-format": "^0.1.1",
+    "prettier": "3.2.5"
   }
 }
